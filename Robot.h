@@ -22,6 +22,33 @@ String ZERO = (String) "ZERO";
 String STAR = (String) "STAR";
 String POUND = (String) "POUND";
 
+String A = (String) "A";
+String B = (String) "B";
+String C = (String) "C";
+String D = (String) "D";
+String E = (String) "E";
+String F = (String) "F";
+String G = (String) "G";
+String H = (String) "H";
+String I = (String) "I";
+String J = (String) "J";
+String K = (String) "K";
+String L = (String) "L";
+String M = (String) "M";
+String N = (String) "N";
+String O = (String) "O";
+String P = (String) "P";
+String Q = (String) "Q";
+String R = (String) "R";
+String S = (String) "S";
+String T = (String) "T";
+String U = (String) "U";
+String V = (String) "V";
+String W = (String) "W";
+String X = (String) "X";
+String Y = (String) "Y";
+String Z = (String) "Z";
+
 void start();
 void reload();
 String get_mode();
@@ -52,4 +79,4 @@ bool getLeft();
 String ir_pressed();
 
 // Bluetooth
-bool bt_pressed(String btn);
+String bt_pressed();

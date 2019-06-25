@@ -290,14 +290,9 @@ void get_bt()
   }
 }
 
-bool bt_pressed(String btn)
+String bt_pressed()
 {
-  Serial.print("Current button: ");
-  Serial.println(bt_button);
-  Serial.print("Checked button: ");
-  Serial.println(btn);
-  Serial.println(bt_button == btn);
-  return bt_button == btn;
+  return bt_button;
 }
 
 void reload()
